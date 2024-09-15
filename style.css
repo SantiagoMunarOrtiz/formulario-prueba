@@ -5,6 +5,12 @@
     font-family: '';
 }
 
+
+html, body {
+    height: 100%; /* Asegúrate de que todo el contenido ocupe el 100% de la altura */
+    margin: 0;
+    padding: 0;
+}
 body {
     height: 100vh;
     display: flex;
@@ -237,3 +243,72 @@ h2{
 }
 
 
+
+/* Ajustes para pantallas pequeñas (móviles) */
+@media (max-width: 600px) {
+    /* Ajustar el contenedor para que sea vertical */
+    .container {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+
+    /* Ajustar las secciones para que ocupen toda la pantalla */
+    .left-section, .right-section {
+        width: 100%;
+        padding: 20px;
+    }
+
+    /* Ajustar el título para que sea más pequeño en móviles */
+    .left-section h1 {
+        font-size: 2.5rem;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    /* Centrando el párrafo en la pantalla y reduciendo el tamaño */
+    .left-section p {
+        font-size: 1.2rem;
+        margin: 20px auto;
+        text-align: center;
+        width: 90%;
+    }
+
+    /* Ajustar el botón "start-btn" para que sea más pequeño y centrado */
+    .start-btn {
+        font-size: 1.1rem;
+        padding: 10px 20px;
+        margin: 30px auto;
+        text-align: center;
+        width: 90%;
+    }
+
+    /* Ajustes para la sección de formulario */
+    .signup-form {
+        width: 100%;
+        padding: 20px;
+    }
+
+    /* Ajustar el tamaño del encabezado del formulario */
+    .signup-form h2 {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    /* Ajustar los inputs del formulario */
+    .signup-form input {
+        font-size: 1rem;
+        padding: 10px;
+        width: 100%;
+    }
+
+    /* Botón de formulario más pequeño */
+    .signup-btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+        width: 100%;
+    }
+    html{
+        
+    }
+}
