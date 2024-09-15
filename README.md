@@ -1,0 +1,3 @@
+Hello, I'm José Santiago Munar, a bilingual Full Stack Developer with experience in building web and mobile applications. I specialize in both frontend and backend development, with strong skills in technologies such as React, Angular, Node.js, NestJS, and Spring Boot, as well as databases like MySQL, PostgreSQL, and MongoDB.
+
+As a bilingual developer, I am comfortable working in international environments and collaborating with global teams. I am committed to following best development practices, ensuring high-quality code, and delivering scalable and efficient solutions.
